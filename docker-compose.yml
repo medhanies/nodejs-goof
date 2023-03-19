@@ -20,6 +20,7 @@ services:
   good-mysql:
     container_name: goof-mysql
     image: mysql:5
+    platform: linux/amd64
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: acme
